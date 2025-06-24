@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:utilidades/src/models/menu_model.dart';
 import 'package:utilidades/src/views/about_view.dart';
+import 'package:utilidades/src/views/clima_view.dart';
 import 'package:utilidades/src/views/converter_view.dart';
 import 'package:utilidades/src/views/home_view.dart';
 
@@ -23,4 +24,9 @@ final List<MenuModel> appMenuItems = [
     route: "/convertendomedidas",
     page: ConverterView(),
   ),
+     MenuModel(title: "Clima Tempo",
+    icon: Icons.thermostat,
+    route: "/clima", 
+    page: TelaClima(),
+    ),
 ];
