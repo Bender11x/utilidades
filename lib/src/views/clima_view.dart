@@ -14,10 +14,7 @@ class TelaClima extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Clima Agora"),
-        // Removido o backgroundColor laranja, caso queira deixar padrão
-        // Você pode personalizar aqui se quiser outra cor
       ),
-      // Removido o drawer
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: FutureBuilder<ClimaModels>(
